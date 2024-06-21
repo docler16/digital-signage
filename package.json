@@ -6,7 +6,7 @@
   "scripts": {
     "setup": "[ -f .env ] || makeconf",
     "dev": "ENVIRON=DEV node server.js",
-    "prod": "ENVIRON=PROD node server.js",
+    "prod": "node server.js",
     "build": "next build",
     "lint": "eslint --color ./ *.js",
     "start": "node server.js",
